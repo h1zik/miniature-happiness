@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(blue-circle.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-y: -75%;
+    background-position-x: 70%;
+}
+    
+@media screen and (max-width: 768px){
+    .bangunan h2 {
+        color: whitesmoke;
+    }
+
+    .bangunan {
+        filter: drop-shadow(0px 1px 1px black);
+        background-image: url(lumberjack.jpg);
+        background-size: 350px;
+        background-repeat: no-repeat;
+        padding: 30px 0px 30px 0px;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .makanan h2 {
+        color: whitesmoke;
+    }
+
+    .makanan {
+        filter: drop-shadow(0px 1px 1px black);
+        background-image: url(foodlot.jpg);
+        background-size: 350px;
+        background-repeat: no-repeat;
+        padding: 30px 0px 30px 0px;
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    .elektronik h2 {
+        color: whitesmoke;
+    }
+
+    .elektronik {
+        filter: drop-shadow(0px 1px 1px black);
+        background-image: url(elektronik.jpg);
+        background-size: 350px;
+        background-repeat: no-repeat;
+        padding: 30px 0px 30px 0px;
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    .pendidikan h2 {
+        color: whitesmoke;
+    }
+
+    .pendidikan {
+        filter: drop-shadow(0px 1px 1px black);
+        background-image: url(sekolahnama.jpg);
+        background-size: 350px;
+        background-repeat: no-repeat;
+        padding: 30px 0px 30px 0px;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .garis-aja2 {
+      border: solid 8px rgb(252, 246, 246);
+    }
+
+    .garis-aja {
+        border: solid 8px rgb(252, 246, 246);
+        width: 100%;
+        margin: auto;
+        position: static;
+    } 
+
+    .daftar-satu p {
+        text-align: center;
+    }
+    .daftar-satu {
+        border-radius: 10px;
+        margin: 60px 0px 0px 0px;
+        width: 90%;
+        margin: auto;
+        background: whitesmoke;
+        filter: drop-shadow(0px 1px 1px black);
+    }
+
+    .daftar-satu h3 {
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .atasan {
+        padding: 0px 0px 60px 0px;
+        text-align: center;
+        margin: 20px 0px 0px 0px;
+    }
+}
